@@ -1,0 +1,1001 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="icon" type="imag/png" href="ATELIER\car.png">
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+       <script src='https://www.google.com/recaptcha/api.js'></script>
+      <!-- <script type="text/javascript">
+        function get_action() {
+            var v = grecaptcha.getResponse();
+            console.log("Resp" + v);
+            if (v == '') {
+                document.getElementById('captcha').innerHTML = "You can't leave Captcha Code empty";
+                return false;
+            }
+            else {
+                document.getElementById('captcha').innerHTML = "Captcha completed";
+                return true;
+            }
+        }
+    </script>-->
+   
+
+
+
+    </head>
+<body>
+                                                     <!-- top bar-->
+
+                 <div class="title-bar" data-responsive-toggle="example-animated-menu" data-hide-for="medium">
+                     <button class="menu-icon" type="button" data-toggle></button>
+                     <div class="title-bar-title">Menu</div>
+                 </div>
+
+                 <div class="top-bar" id="example-animated-menu" data-sticky data-margin-top="0" >
+                     <div><img src="ATELIER\rent-a-car34.png"></div>
+                     <div class="top-bar-left">
+                         <ul class="dropdown menu" data-dropdown-menu >
+                             <li class="menu-text">Rent Station</li>
+                         </ul>
+                     </div>
+                     <div class="top-bar-right">
+                         <ul class="menu">
+                             <ul class="menu expanded" data-magellan>
+                                 <li><a href="#first"><button class="clear button" >Véhicules</button></a></li>
+                                 <li><a href="#second"><button class="clear button" >Offres</button></a></li>
+                             </ul>
+                             <li><a><button class="clear button" data-open="Modal1">Login</button></a></li>
+                         </ul>
+                    </div>
+                 </div>
+                                                   <!--top bar end -->
+
+                                                   <!-- orbit -->
+
+                 <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+
+                     <div class="orbit-wrapper">
+
+                         <div class="orbit-controls">
+                            <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+                            <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+                         </div>
+                         <ul class="orbit-container">
+                             <li class="is-active orbit-slide">
+                                <figure class="orbit-figure">
+                                <img class="orbit-image" src="ATELIER\ren2.jpg" alt="Space">
+                                <figcaption class="orbit-caption">Location de véhicules : Rechercher et trouver le véhicule approprié pour vous !</figcaption>
+                                </figure>
+                             </li>
+                             <li class="orbit-slide">
+                                <figure class="orbit-figure">
+                                  <img class="orbit-image" src="ATELIER\pcom.jpg" alt="Space">
+                                  <figcaption class="orbit-caption">Choisir parmi  plus de 100 véhicules de tous types </figcaption>
+                                </figure>
+                             </li>
+                             <li class="orbit-slide">
+                                <figure class="orbit-figure">
+                                  <img class="orbit-image" src="ATELIER\reserver2.png" alt="Space">
+                                  <figcaption class="orbit-caption">inscrivez vous et bénificiez dés maintenant de meilleures offres et un meilleur service  </figcaption>
+                                </figure>
+                             </li>
+      
+                         </ul>
+                     </div>
+                     <nav class="orbit-bullets">
+                         <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
+                         <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+                         <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+    
+                     </nav>
+                 </div>
+                 <a class="button  expanded warning" id="insc" href="#" data-open="Modal2">Inscrivez vous!</a>
+                                                   <!-- orbit end -->
+
+                                                   <!-- magellan véhicules -->
+                 <div class="sections">
+                     <section id="first" data-magellan-target="first">                                  
+                          <h2 id="H2-acc">Nos véhicules</h2>
+                          <p id="H2-acc">Portes ouvertes sur nos garages, consulter tous les véhicules dans un seul endroit ! </p>
+
+                 
+                      <ul class="accordion" id="accord-type" data-accordion data-allow-all-closed="true">
+                         <li class="accordion-item is-active" data-accordion-item>
+                                  <!-- Accordion tab title -->
+                             <a href="#" class="accordion-title acctype " >Voitures</a>
+                             <div class="accordion-content" data-tab-content>
+                                 <div class="grid-container">
+                                     <div class="grid-x grid-padding-x small-up-2 medium-up-3">
+                                         <div class="cell">
+                                             <div class="card">
+                                                 <div class="card-divider">
+                                                     <a href="#" id="cars-a"><button class="clear button" data-open="Modal3"> Voitures citadines</a></button>
+                                                 </div>
+                                                 <img src="ATELIER\clio.jpg">
+                                             </div>
+                                         </div>
+
+
+                                         <div class="cell">
+                                             <div class="card">
+                                                 <div class="card-divider">
+                                                     <a href="#" id="cars-a"><button class="clear button" data-open="Modal4">Voitures Utilitaires</a></button>
+                                                 </div>
+                                                 <img src="ATELIER\com.jpg">
+                                             </div>
+                                         </div>
+
+
+
+                                         <div class="cell">
+                                             <div class="card">
+                                                 <div class="card-divider" align="center">
+                                                     <a href="#" id="cars-a"><button class="clear button" data-open="Modal5">Voitures de Luxe</a></button>
+                                                 </div>
+                                                 <img src="ATELIER\bmw.jpg">
+                                             </div>
+                                         </div>
+                                     </div>
+                                 </div>
+                             </div>
+                         </li>
+
+
+                                        <!-- ... -->
+
+                         <li class="accordion-item " data-accordion-item>
+
+                                   <!-- Accordion tab title -->
+                             <a href="#" class="accordion-title acctype">Bus</a>
+                             <div class="accordion-content" data-tab-content>
+                                
+                                 <ul class="tabs" data-responsive-accordion-tabs="tabs medium-accordion large-tabs" id="example-tabs">
+                                 <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">MiniBus</a></li>
+                                 <li class="tabs-title"><a href="#panel2">Confort</a></li>
+                                 <li class="tabs-title"><a href="#panel3">Semi-Confort</a></li>
+                                 </ul>
+s
+                                 <div class="tabs-content" data-tabs-content="example-tabs">
+                                 <div class="tabs-panel is-active" id="panel1">
+                         <table class="stack" id="tableau">
+                         <thead>
+                          <tr>
+                             <th width="50">Marque</th>
+                             <th width="50">Modele</th>
+                             <th width="50">Prix par jour</th>
+                             <th width="50">Prix par heure</th>
+                             <th width="30"></th>
+                          </tr>
+                         </thead>
+                         <tbody>                         
+                          <tr>
+                          <td>Volkswagen</td>
+                          <td>Crafter / Caravelle / California</td>
+                          <td>A partir de 5000 DA</td>
+                          <td>A partir de 250 DA</td>
+                          <td><a class="button warning" id="inscres" href="#" data-open="Modal1">Réserver</a></td>
+                          </tr>
+                          <tr>
+                          <td>Peugeot</td>
+                          <td>Expert / Boxer</td>
+                          <td>A partir de 4500 DA</td>
+                          <td>A partir de 250 DA</td>
+                          <td><a class="button warning" id="inscres" href="#" data-open="Modal1">Réserver</a></td>
+                          </tr>
+                          <tr>
+                          <td>Ford</td>
+                          <td>Tourneo / Transit</td>
+                          <td>A partir de 4000 DA</td>
+                          <td>A partir de 200 DA</td>
+                          <td><a class="button warning" id="inscres" href="#" data-open="Modal1">Réserver</a></td>
+                          </tr>
+                          <tr>
+                          <td>Renault</td>
+                          <td>Trafic</td>
+                          <td>A partir de 4000 DA</td>
+                          <td>A partir de 200 DA</td>
+                          <td><a class="button warning" id="inscres" href="#" data-open="Modal1">Réserver</a></td>
+                          </tr>
+                          <tr>
+                          <td>Mercedes</td>
+                          <td>Classe V / Sprinter City / Vito</td>
+                          <td>A partir de 6000DA</td>
+                          <td>A partir de 350 DA</td>
+                          <td><a class="button warning" id="inscres" href="#" data-open="Modal1">Réserver</a></td>
+                          </tr>
+                          
+                          </tbody>
+                          </table>
+                         </div>
+
+
+                         <div class="tabs-panel" id="panel2">
+                         <table class="stack" id="tableau">
+                         <thead>
+                          <tr>
+                             <th width="50">Marque</th>
+                             <th width="50">Modele(sièges)</th>
+                             <th width="50">Prix par jour</th>
+                             <th width="50">Prix par heure</th>
+                             <th width="30"></th>
+                          </tr>
+                         </thead>
+                         <tbody>                         
+                          <tr>
+                          <td>Mercedes</td>
+                          <td>Tourismou(51) / Euro VI(47)</td>
+                          <td>A partir de 6000 DA</td>
+                          <td>A partir de 350 DA</td>
+                          <td><a class="button warning" id="inscres" href="#" data-open="Modal1">Réserver</a></td>
+                          </tr>
+                          <tr>
+                          <td>Higer</td>
+                          <td>Dreamscape(49) / KLQ(47) </td>
+                          <td>A partir de 5500 DA</td>
+                          <td>A partir de 300 DA</td>
+                          <td><a class="button warning" id="inscres" href="#" data-open="Modal1">Réserver</a></td>
+                          </tr>
+                          <tr>
+                          <td>Yutong</td>
+                          <td>ZK6122HD9(51)</td>
+                          <td>A partir de 5500 DA</td>
+                          <td>A partir de 250 DA</td>
+                          <td><a class="button warning" id="inscres" href="#" data-open="Modal1">Réserver</a></td>
+                          </tr>
+                          <tr>
+                          <td>Golden Dragon</td>
+                          <td>Navigator(53) / Explorer(71)</td>
+                          <td>A partir de 6500 DA</td>
+                          <td>A partir de 300 DA</td>
+                          <td><a class="button warning" id="inscres" href="#" data-open="Modal1">Réserver</a></td>
+                          </tr>
+                          <tr>
+                          <td>King Long</td>
+                          <td>XMQ6125AY(51)</td>
+                          <td>A partir de 6000DA</td>
+                          <td>A partir de 350 DA</td>
+                          <td><a class="button warning" id="inscres" href="#" data-open="Modal1">Réserver</a></td>
+                          </tr>
+                          
+                          </tbody>
+                          </table>
+                         </div>
+
+                         <div class="tabs-panel" id="panel3">
+                          <table class="stack" id="tableau">
+                         <thead>
+                          <tr>
+                             <th width="50">Marque</th>
+                             <th width="50">Modele(sièges)</th>
+                             <th width="50">Prix par jour</th>
+                             <th width="50">Prix par heure</th>
+                             <th width="30"></th>
+                          </tr>
+                         </thead>
+                         <tbody>                         
+                          <tr>
+                          <td>Mercedes</td>
+                          <td>Sprinter Traveler(20)</td>
+                          <td>A partir de 6500 DA</td>
+                          <td>A partir de 350 DA</td>
+                          <td><a class="button warning" id="inscres" href="#" data-open="Modal1">Réserver</a></td>
+                          </tr>
+                          <tr>
+                          <td>Toyota</td>
+                          <td>Coaster(26)</td>
+                          <td>A partir de 5000 DA</td>
+                          <td>A partir de 250 DA</td>
+                          <td><a class="button warning" id="inscres" href="#" data-open="Modal1">Réserver</a></td>
+                          </tr>
+                          <tr>
+                          <td>King Long</td>
+                          <td>XMQ6800Y(31)</td>
+                          <td>A partir de 4500DA</td>
+                          <td>A partir de 250 DA</td>
+                          <td><a class="button warning" id="inscres" href="#" data-open="Modal1">Réserver</a></td>
+                          </tr>
+                          
+                          </tbody>
+                          </table>
+                         </div>
+                          </div> 
+                         </li>
+                                        <!-- ... -->
+
+                         <li class="accordion-item " data-accordion-item>
+                                   <!-- Accordion tab title -->
+                             <a href="#" class="accordion-title acctype">Moto</a>
+                             <div class="accordion-content" data-tab-content>
+                                 <table class="stack" id="tabrev">
+                         <thead>
+                          <tr>
+                             <th width="150">Marque</th>
+                             <th width="150">Modele</th>
+                             <th width="100">Catégorie</th>
+                             <th width="150">Prix par jour</th>
+                             <th width="150">Prix par heure</th>
+                             <th width="100"></th>
+                          </tr>
+                         </thead>
+                         <tbody>
+                         
+                          <tr>
+                             <td>BMW</td>
+                             <td>C650 / C Evolution / C400 x</td>
+                             <td>Urbain</td>
+                             <td>A partir de 2500 DA</td>
+                             <td>A partir de 150 DA</td>
+                             <td><a class="button warning" id="inscres" href="#" data-open="Modal1">Réserver</a></td>
+                          </tr>
+                          <tr>
+                          <td>BMW</td>
+                          <td>HP4 race / S1000 RR</td>
+                          <td>Sport</td>
+                          <td>A partir de 5000 DA</td>
+                          <td>A partir de 250 DA</td>
+                          <td><a class="button warning" id="inscres" href="#" data-open="Modal1">Réserver</a></td>
+                          </tr>                      
+                          <tr>
+                          <td>Yamaha</td>
+                          <td>YFZ50 quad / YZF-R1 / YZF-R6</td>
+                          <td>Sport</td>
+                          <td>A partir de 4000 DA</td>
+                          <td>A partir de 200 DA</td>
+                          <td><a class="button warning" id="inscres" href="#" data-open="Modal1">Réserver</a></td>
+                          </tr>
+                          <tr>
+                          <td>Yamaha</td>
+                          <td>YS125</td>
+                          <td>Urbain</td>
+                          <td>A partir de 3000 DA</td>
+                          <td>A partir de 200 DA</td>
+                          <td><a class="button warning" id="inscres" href="#" data-open="Modal1">Réserver</a></td>
+                          </tr>
+                          <tr>
+                          <td>Vespa</td>
+                          <td>SEI GIORINI / Primavera /Sprint</td>
+                          <td>Urbain</td>
+                          <td>A partir de 2000 DA</td>
+                          <td>A partir de 200 DA</td>
+                          <td><a class="button warning" id="inscres" href="#" data-open="Modal1">Réserver</a></td>
+                          </tr>
+                          <tr>
+                          <td>Harley Davidson</td>
+                          <td>Street Rod / Street 750</td>
+                          <td>Urbain</td>
+                          <td>A partir de 3000 DA</td>
+                          <td>A partir de 200 DA</td>
+                          <td><a class="button warning" id="inscres" href="#" data-open="Modal1">Réserver</a></td>
+                          </tr>
+                          <td>Harley Davidson</td>
+                          <td>Superlow / Roadster / Forty-eight</td>
+                          <td>Sport</td>
+                          <td>A partir de 6000 DA</td>
+                          <td>A partir de 300 DA</td>
+                          <td><a class="button warning" id="inscres" href="#" data-open="Modal1">Réserver</a></td>
+                          </tr>                          
+                          </tbody>
+                          </table>
+                             </div>
+                         </li>
+                      </ul>
+                     </section>
+                 </div>
+                                              <!--OFFRES-->
+
+                 <div class="sections">
+                     <section id="second" data-magellan-target="second">
+                             <h2 id="H2-acc">Nos offres</h2>
+                             <p id="H2-acc">Jetez un coup d'oeil sur nos offres et béneficiez des meilleurs tarifs et de nombreux avantages</p>
+
+                 
+                      
+                         <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
+
+                             <div class="orbit-wrapper">
+                                 <div class="orbit-controls">
+                                     <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+                                     <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+                                 </div>
+                                 <ul class="orbit-container">
+                                     <li class="is-active orbit-slide">
+                                         <figure class="orbit-figure">
+                                             <img class="orbit-image" src="ATELIER\choisis.jpg" alt="Space">
+                                             <figcaption class="orbit-caption">On vous accompagnera dans vos plus beaux jours avec notre offre des fêtes <br></figcaption>
+                                         </figure>
+                                     </li>
+                                     <li class="orbit-slide">
+                                         <figure class="orbit-figure">
+                                             <img class="orbit-image" src="ATELIER\VAC1.jpg" alt="Space">
+                                             <figcaption class="orbit-caption">Pensez vous aller en vacances ? cette offre est spécialement faite pour vous ! </figcaption>
+                                         </figure>
+                                     </li>
+                                     <li class="orbit-slide">
+                                         <figure class="orbit-figure">
+                                             <img class="orbit-image" src="ATELIER\even.png" alt="Space">
+                                             <figcaption class="orbit-caption">Evenement ? Voyege organisé ? transporter un grand nombre ? Nous avons pensé à tout, nous avons ce qu'il vous faut. </figcaption>
+                                             </figure>
+                                     </li>
+                                 </ul>
+                             </div>
+                             <nav class="orbit-bullets">
+                                 <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
+                                 <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+                                 <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>   
+                             </nav>
+                         </div>
+                         <button class=" button expanded warning" id="insc" data-open="Modal6" >Consulter les offres!</button>
+                     </section>
+                 </div>
+                                                                     <!-- contactez nous-->
+                 
+                 <h4 id="cont">Pour nous, votre satisfaction est essentielle</h4>
+                 <p id="cont1">Relation clientèle</p>
+                 <p id="cont2">Nous vous Proposons plusieurs solutions pour nous contacter. Choisissez celle qui vous convient le mieux</p>
+                 <div class="media-object stack-for-small">
+                     <div class="media-object-section">
+                         <div class="thumbnail" id="cont3">
+                             <img src= "ATELIER\contactez-nous.jpg">
+                         </div>
+                     </div>
+                     <div class="media-object-section">
+                         <p id="cont4">Email:</p>
+                         <p id="cont5">projethassan5@gmail.com</p>
+                     
+                     
+                         <p id="cont4">Telephone:</p>
+                         <p id="cont5">0542216142 <br> du samedi au jeudi de 8H30 à 17H30</s></p>
+
+                         <p id="cont4">Adresse:</p>
+                         <p id="cont5">Agence location <br> Rue de l'independance, Ali Mendjeli <br> Ali Mendjeli, Constantine</s></p>
+                     </div>
+                 </div>
+                 
+
+                                                              <!-- fin contactez nous -->
+
+
+
+
+
+                                                 <!-- reveal modal 1 login -->
+
+                 <div class="reveal" id="Modal1" data-reveal>
+                     <ul class="accordion" data-responsive-accordion-tabs="accordion medium-tabs large-accordion" data-allow-all-closed="true">
+                     <h1 id="inscf">Authentification</h1>
+                                                      <!--client -->
+
+                         <li class="accordion-item " data-accordion-item>
+                             <a href="#" class="accordion-title">Client</a>
+                             <div class="accordion-content" data-tab-content>
+                                 <form data-abide novalidate action="http://localhost:8888/ProjetFin/ServletAutheInsc" method="post">
+                                 <input type="hidden" name="type" value="AuthClient">
+                                     <div data-abide-error class="alert callout" style="display: none;">
+                                         <p><i class="fi-alert"></i>Il y a des erreurs dans votre formulaire </p>
+                                     </div>
+                                     <div class="grid-container">
+                                         <div class="grid-x grid-margin-x">
+                                             <div class="medium-6 cell">
+                                                 <label>Nom d'utilisateur
+                                                     <input type="text" name="nomUtilisateur" placeholder="Client" required>
+                                                 </label>
+                                             </div>
+                                             <div class="cell small-6">
+                                                 <label>Mot de passe
+                                                     <input type="password" id="password"  name="password" placeholder="password" aria-describedby="exampleHelpText" required pattern="alpha_numeric" >
+                                                     <span class="form-error">
+                                                     Champs obligatoire
+                                                     </span>
+                                                 </label>
+        
+                                             </div>
+                                         </div>
+                                     </div>
+                                     <div class="grid-container">
+                                         <div class="grid-x grid-margin-x">
+                                             <fieldset class="cell large-6">
+                                                 <button class="button" type="submit" value="Submit">Envoyer</button>
+                                             </fieldset>
+                                             <fieldset class="cell large-6">
+                                                 <button class="button" type="reset" value="Reset">Réinitialiser</button>
+                                             </fieldset>
+                                         </div>
+                                     </div>
+                                 </form>
+                             </div>
+                         </li>
+
+
+                                                       <!--Gestionnaire-->
+
+                         <li class="accordion-item " data-accordion-item>
+                             <a href="#" class="accordion-title">Gestionnaire</a>
+                             <div class="accordion-content" data-tab-content>
+                                 <form data-abide novalidate action="http://localhost:8888/ProjetFin/ServletAutheInsc" method="post">
+                                 <input type="hidden" name="type" value="AuthGestionnaire">
+                                     <div data-abide-error class="alert callout" style="display: none;">
+                                         <p><i class="fi-alert"></i>Il y a des erreurs dans votre formulaire </p>
+                                     </div>
+                                     <div class="grid-container">
+                                     <div class="grid-x grid-margin-x">
+                                         <div class="medium-6 cell">
+                                             <label>Nom d'utilisateur
+                                                 <input type="text"  name="nomUtilisateur" placeholder="Gestionnaire" required>
+                                                 <span class="form-error">
+                                                     Champs obligatoire
+                                                 </span>
+                                             </label>
+                                         </div>
+                                     <div class="cell small-6">
+                                         <label>Mot de passe
+                                             <input type="password" id="password" name="password" placeholder="password" aria-describedby="exampleHelpText" required pattern="alpha_numeric" >
+                                             <span class="form-error">
+                                             Champs obligatoire
+                                             </span>
+                                             </label>
+        
+                                     </div>
+                                     </div>
+                                     </div>
+                                     <div class="grid-container">
+
+                                         <div class="grid-x grid-margin-x">
+                                             <fieldset class="cell large-6">
+                                                 <button class="button" type="submit" value="Submit">Envoyer</button>
+                                             </fieldset>
+                                         <fieldset class="cell large-6">
+                                                 <button class="button" type="reset" value="Reset">Réinitialiser</button>
+                                         </fieldset>
+                                         </div>
+                                     </div>
+                                 </form>
+                             </div>
+                         </li>
+                     </ul>
+                     <button class="close-button" data-close aria-label="Close modal" type="button">
+                                     <span aria-hidden="true">&times;</span>
+                                     </button>
+                  </div>
+
+                                                                     <!-- modal1 -->
+
+
+                                                                     <!--reveal modal 2 inscription -->
+
+                 <div class="reveal" id="Modal2" data-reveal>
+                     <h1 id="inscf">Inscription</h1>
+                     <p id="inscf">Inscrivez vous pour pouvoir en profiter</p>
+                     <form data-abide novalidate  onsubmit="return checkform(this);" action="http://localhost:8888/ProjetFin/ServletAutheInsc" method="post">
+                                   <input type="hidden" name="type" value="Inscription">  
+                                     <div data-abide-error class="alert callout" style="display: none;">
+                                         <p><i class="fi-alert"></i>Il y a des erreurs dans votre formulaire </p>
+                                     </div>
+                                     <div class="grid-container">
+                                     <div class="grid-x grid-margin-x">
+                                         <div class="medium-6 cell">
+                                             <label>Nom:
+                                                 <input type="text" name="nom" placeholder="nom" required>
+                                                 <span class="form-error">
+                                                     Champs obligatoire
+                                                 </span>
+                                             </label>
+                                         </div>
+                                         <div class="medium-6 cell">
+                                             <label>Prenom:
+                                                 <input type="text" name="prenom" placeholder="prenom" required>
+                                                 <span class="form-error">
+                                                     Champs obligatoire
+                                                 </span>
+                                             </label>
+                                         </div>
+                                         <div class="cell small-12">
+                                             <label>Adresse:
+                                                 <input type="text" name="adresse" placeholder="Adresse" required>
+                                                 <span class="form-error">
+                                                     Champs obligatoire
+                                                 </span>
+                                             </label>
+                                         </div>
+                                         <div class="cell small-6">
+                                             <label>Date de naisssance:
+                                                 <input type="date" name="dateNaissence" placeholder="date de naisssance" required>
+                                                 <span class="form-error">
+                                                     Champs obligatoire
+                                                 </span>
+                                             </label>
+                                         </div>
+                                         <div class="cell small-6">
+                                         	 <label>Numero de télephone:
+                                         		 <input type="text" name="numTel" placeholder="numTel"  required pattern="number">
+                                         		 <span class="form-error">
+                                                     Champs obligatoire
+                                                 </span>
+
+                                         	 </label>
+                                         </div>
+                                         <div class="medium-6 cell">
+                                             <label>Nom d'utilisateur
+                                                 <input type="text" name="nomUtilisateur" placeholder="nom d'utilisateur" required>
+                                                 <span class="form-error">
+                                                     Champs obligatoire
+                                                 </span>
+                                             </label>
+
+                                         </div>
+                                         <div class="medium-6 cell">
+                                             <label>Numero de permis de conduire
+                                                 <input type="text" name="numPermis" placeholder="numPermis" required pattern="number">
+                                                 <span class="form-error">
+                                                     Champs obligatoire
+                                                 </span>
+                                             </label>
+                                             
+                                         </div>
+                                         <div class="cell small-12">
+                                             <label>Mot de passe
+                                                 <input type="password" id="ap"  name="password" placeholder="password" aria-describedby="exampleHelpText" required >
+                                                 <span class="form-error">
+                                                     Champs obligatoire
+                                                 </span>
+                                             </label>
+                                             <p class="help-text" id="exampleHelpText">Entrer un mot de passe</p>
+                                         </div>
+                                         <div class="cell small-12">
+                                             <label>Entrer le mot de passe à nouveau
+                                                 <input type="password" placeholder="password" aria-describedby="exampleHelpText2" required pattern="alpha_numeric" data-equalto="ap">
+                                                 <span class="form-error">
+                                                     Les mots de passes doit être identiques !
+                                                 </span>
+                                             </label>
+                                         </div>
+                                         <div class="cell small-12">
+                                             <label>Email
+                                                 <input type="email" name="email" placeholder="email" required>
+                                                 <span class="form-error">
+                                                     format invalid
+                                                 </span>
+                                             </label>
+                                             
+                                         </div>
+                                     </div>
+                                     </div>
+                                     <!--
+                                     <div class="g-recaptcha" data-sitekey="6LeKyT8UAAAAAKXlohEII1NafSXGYPnpC_F0-RBS"></div>
+                                     <div id="captcha"></div>-->
+
+
+                                     <!-- START CAPTCHA -->
+                                     <br>
+                                     <p>Entrez le numero afficher sur le box</p>
+                                     <div class="capbox">
+
+                                     <div id="CaptchaDiv"></div>
+                                     <div class="capbox-inner">
+                                         Type the above number:<br>
+                                         <input type="hidden" id="txtCaptcha"> 
+                                         <input type="text" name="CaptchaInput" id="CaptchaInput" size="15"><br>
+                                     </div>
+                                     </div>
+                                     <br><br>
+<!-- END CAPTCHA -->
+                                     <div class="grid-container">
+                                         <div class="grid-x grid-margin-x">
+                                             <fieldset class="cell large-6">
+                                                 <button class="button" type="submit" value="Submit">Envoyer</button>
+                                             </fieldset>
+                                         <fieldset class="cell large-6">
+                                                 <button class="button" type="reset" value="Reset">Réinitialiser</button>
+                                         </fieldset>
+                                         </div>
+                                     </div>
+                                 </form>
+ <script type="text/javascript">
+
+// Captcha Script
+
+function checkform(theform){
+var why = "";
+
+if(theform.CaptchaInput.value == ""){
+why += "- Please Enter CAPTCHA Code.\n";
+}
+if(theform.CaptchaInput.value != ""){
+if(ValidCaptcha(theform.CaptchaInput.value) == false){
+why += "- The CAPTCHA Code Does Not Match.\n";
+}
+}
+if(why != ""){
+alert(why);
+return false;
+}
+}
+
+var a = Math.ceil(Math.random() * 9)+ '';
+var b = Math.ceil(Math.random() * 9)+ '';
+var c = Math.ceil(Math.random() * 9)+ '';
+var d = Math.ceil(Math.random() * 9)+ '';
+var e = Math.ceil(Math.random() * 9)+ '';
+
+var code = a + b + c + d + e;
+document.getElementById("txtCaptcha").value = code;
+document.getElementById("CaptchaDiv").innerHTML = code;
+
+// Validate input against the generated number
+function ValidCaptcha(){
+var str1 = removeSpaces(document.getElementById('txtCaptcha').value);
+var str2 = removeSpaces(document.getElementById('CaptchaInput').value);
+if (str1 == str2){
+return true;
+}else{
+return false;
+}
+}
+
+// Remove the spaces from the entered and generated code
+function removeSpaces(string){
+return string.split(' ').join('');
+}
+</script>
+  <button class="close-button" data-close aria-label="Close modal" type="button">
+                                     <span aria-hidden="true">&times;</span>
+                                     </button>
+                 </div>
+                                                                      <!--fin modal2 -->
+
+                                                                      <!--reavel modal3 voiture citadine  -->
+
+                 <div class="reveal" id="Modal3" data-reveal>
+                     <h1 id="inscf">Voiture citadine </h1>
+
+                     <table class="stack" id="tabrev">
+                         <thead>
+                          <tr>
+                             <th width="150">Marque</th>
+                             <th width="150">Modele</th>
+                             <th width="150">Prix par jour</th>
+                             <th width="150">Prix par heure</th>
+                             <th width="100"></th>
+                          </tr>
+                         </thead>
+                         <tbody>
+                          <tr>
+                             <td>KIA</td>
+                             <td>Picanto / Carens</td>
+                             <td>A partir de 3500 DA</td>
+                             <td>A partir de 200 DA</td>
+                             <td><a class="button warning" id="inscres" href="#" data-open="Modal1">Réserver</a></td>
+                          </tr>
+                          <tr>
+                          <td>Volkswagen</td>
+                          <td>Polo / Golf / Coccinelle / Touran / Caddy</td>
+                          <td>A partir de 4500 DA</td>
+                          <td>A partir de 250 DA</td>
+                          <td><a class="button warning" id="inscres" href="#" data-open="Modal1">Réserver</a></td>
+                          </tr>
+                          <tr>
+                          <td>Peugeot</td>
+                          <td>108 / 208 / 308 / 2008 / Partner / Bipper </td>
+                          <td>A partir de 3000 DA</td>
+                          <td>A partir de 150 DA</td>
+                          <td><a class="button warning" id="inscres" href="#" data-open="Modal1">Réserver</a></td>
+                          </tr>
+                          <tr>
+                          <td>Renault</td>
+                          <td>Clio / Kango / Captur</td>
+                          <td>A partir de 4000 DA</td>
+                          <td>200 DA</td>
+                          <td><a class="button warning" id="inscres" href="#" data-open="Modal1">Réserver</a></td>
+                          </tr>
+                          <tr>
+                          <td>Fiat</td>
+                          <td>500</td>
+                          <td>A partir de 4000 DA</td>
+                          <td>A partir de 200 DA</td>
+                          <td><a class="button warning" id="inscres" href="#" data-open="Modal1">Réserver</a></td>
+                          </tr>
+                          <tr>
+                          <td>SEAT</td>
+                          <td>Ibiza / Leon </td>
+                          <td>A partir de 5000 DA</td>
+                          <td>A partir de 250 DA</td>
+                          <td><a class="button warning" id="inscres" href="#" data-open="Modal1">Réserver</a></td>
+                          </tr>
+                          <tr>
+                          <td>Hyundai</td>
+                          <td>i10 / i20 / Tucson / Creta</td>
+                          <td>A partir de 3000 DA</td>
+                          <td>A partir de 150 DA</td>
+                          <td><a class="button warning" id="inscres" href="#" data-open="Modal1">Réserver</a></td>
+                          </tr>
+                          <tr>
+                          <td>Skoda</td>
+                          <td>Fabia / Rapid / Octavia</td>
+                          <td>4500 DA</td>
+                          <td>250 DA</td>
+                          <td><a class="button warning" id="inscres" href="#" data-open="Modal1">Réserver</a></td>
+                          </tr>
+                          <tr>
+                          <tr>
+                             <td>Ford</td>
+                             <td>Focus / Fiesta / mondeo</td>
+                             <td>A partir de 3500 DA</td>
+                             <td>A partir de 200 DA</td>
+                             <td><a class="button warning" id="inscres" href="#" data-open="Modal1">Réserver</a></td>
+                          </tr>
+                          </tbody>
+                          </table>
+                          <button class="close-button" data-close aria-label="Close modal" type="button">
+                                     <span aria-hidden="true">&times;</span>
+                                     </button>
+                 </div>
+                                                                      <!--fin modal3 -->
+
+                                                                      <!--reavel modal4 voiture professionnel  -->
+                 <div class="reveal" id="Modal4" data-reveal>
+                     <h1 id="inscf">Voiture Utilitaire </h1>
+
+                     <table class="stack" id="tabrev">
+                         <thead>
+                          <tr>
+                             <th width="150">Marque</th>
+                             <th width="150">Modele</th>
+                             <th width="150">Prix par jour</th>
+                             <th width="150">Prix par heure</th>
+                             <th width="100"></th>
+                          </tr>
+                         </thead>
+                         <tbody>
+                         
+                          <tr>
+                             <td>Peugeot</td>
+                             <td>Expert / Partner / Bipper / Boxer</td>
+                             <td>A partir de 4000 DA</td>
+                             <td>A partir de 200 DA</td>
+                             <td><a class="button warning" id="inscres" href="#" data-open="Modal1">Réserver</a></td>
+                          </tr>
+                          <tr>
+                          <td>Volkswagen</td>
+                          <td>Caddy / Amarok / Crafter</td>
+                          <td>A partir de 5000 DA</td>
+                          <td>A partir de 250 DA</td>
+                          <td><a class="button warning" id="inscres" href="#" data-open="Modal1">Réserver</a></td>
+                          </tr>                      
+                          <tr>
+                          <td>Renault</td>
+                          <td>Trafic / Kango / Master</td>
+                          <td>A partir de 4000 DA</td>
+                          <td>A partir de 200 DA</td>
+                          <td><a class="button warning" id="inscres" href="#" data-open="Modal1">Réserver</a></td>
+                          </tr>
+                          <tr>
+                          <td>Mercedes</td>
+                          <td>Sprinter</td>
+                          <td>A partir de 5000 DA</td>
+                          <td>A partir de 250 DA</td>
+                          <td><a class="button warning" id="inscres" href="#" data-open="Modal1">Réserver</a></td>
+                          </tr>
+                          <tr>
+                          <td>Ford</td>
+                          <td>Tourneo / Ranger / Transit / Connect</td>
+                          <td>A partir de 5000 DA</td>
+                          <td>A partir de 250 DA</td>
+                          <td><a class="button warning" id="inscres" href="#" data-open="Modal1">Réserver</a></td>
+                          </tr>
+                         
+                          
+                          </tbody>
+                          
+                          </table>
+                     <button class="close-button" data-close aria-label="Close modal" type="button">
+                                     <span aria-hidden="true">&times;</span>
+                                     </button>
+
+                     
+  
+                 </div>
+                                                                      <!--fin modal4 -->
+
+                                                                      <!--reavel modal5 voiture de lux  -->
+                 <div class="reveal" id="Modal5" data-reveal>
+                     
+                     <h1 id="inscf">Voiture de luxe </h1>
+
+                     <table class="stack" id="tabrev">
+                         <thead>
+                          <tr>
+                             <th width="150">Marque</th>
+                             <th width="150">Modele</th>
+                             <th width="150">Prix par jour</th>
+                             <th width="150">Prix par heure</th>
+                             <th width="100"></th>
+                          </tr>
+                         </thead>
+                         <tbody>                         
+                          <tr>
+                          <td>Volkswagen</td>
+                          <td>Golf R20 / Passat / Tiguan / Touareg</td>
+                          <td>A partir de 7000 DA</td>
+                          <td>A partir de 350 DA</td>
+                          <td><a class="button warning" id="inscres" href="#" data-open="Modal1">Réserver</a></td>
+                          </tr>
+                          <tr>
+                          <td>Peugeot</td>
+                          <td>208 gti / 308 gti</td>
+                          <td>A partir de 6000 DA</td>
+                          <td>A partir de 300 DA</td>
+                          <td><a class="button warning" id="inscres" href="#" data-open="Modal1">Réserver</a></td>
+                          </tr>
+                          <tr>
+                          <td>Fiat</td>
+                          <td>Spider</td>
+                          <td>A partir de 7000 DA</td>
+                          <td>A partir de 350 DA</td>
+                          <td><a class="button warning" id="inscres" href="#" data-open="Modal1">Réserver</a></td>
+                          </tr>
+                          <tr>
+                          <td>SEAT</td>
+                          <td>Ibiza Cupra / Leon Cupra / Ateca </td>
+                          <td>A partir de 6500 DA</td>
+                          <td>A partir de 250 DA</td>
+                          <td><a class="button warning" id="inscres" href="#" data-open="Modal1">Réserver</a></td>
+                          </tr>
+                          <tr>
+                          <td>MiniCooper</td>
+                          <td>MiniCooper cabriolet</td>
+                          <td>A partir de 6000 DA</td>
+                          <td>A partir de 300 DA</td>
+                          <td><a class="button warning" id="inscres" href="#" data-open="Modal1">Réserver</a></td>
+                          </tr>
+                          <tr>
+                          <td>Mercedes</td>
+                          <td>Classe A / Classe C(Break/Cabriolet)/ Classe S / GLC coupé /Classe G</td>
+                          <td>A partir de 7000DA</td>
+                          <td>350 DA</td>
+                          <td><a class="button warning" id="inscres" href="#" data-open="Modal1">Réserver</a></td>
+                          </tr>
+                          <tr>
+                          <tr>
+                             <td>BMW</td>
+                             <td>Série 2 coupé(cabriolet) / M2 coupé / M3 berline / M4 cabriolet / X5 / X6</td>
+                             <td>A partir de 3500 DA</td>
+                             <td>A partir de 200 DA</td>
+                             <td><a class="button warning" id="inscres" href="#" data-open="Modal1">Réserver</a></td>
+                          </tr>
+                          </tbody>
+                          </table>
+                         <button class="close-button" data-close aria-label="Close modal" type="button">
+                                     <span aria-hidden="true">&times;</span>
+                                     </button>
+                 </div>
+                                                                       <!--fin modal5 -->
+
+                                                                       <!--reavel modal6 offres 1  -->
+                 <div class="reveal" id="Modal6" data-reveal>
+                     <h1>Offres</h1>
+                     <p>Aucun offre n'est disponible pour le moment  </p>
+                     <button class="close-button" data-close aria-label="Close modal" type="button">
+                                     <span aria-hidden="true">&times;</span>
+                                     </button>
+  
+                 </div>
+                                                                       <!--fin modal6 -->
+
+
+
+
+
+
+
+
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
